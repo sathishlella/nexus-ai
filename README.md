@@ -1,46 +1,70 @@
-# Nexus AI
+# Nexus AI Agent
 
-A next-generation AI agent built with modern web technologies. Experience intelligent conversations, creative assistance, and seamless productivity.
+> An autonomous AI agent interface demonstrating multi-tool orchestration, autonomous planning, and real-time execution tracking.
 
-![Nexus AI](https://img.shields.io/badge/Nexus-AI-purple)
-![Next.js](https://img.shields.io/badge/Next.js-14-black)
-![React](https://img.shields.io/badge/React-18-blue)
-![Tailwind](https://img.shields.io/badge/Tailwind-3-cyan)
+![Nexus AI](https://img.shields.io/badge/Nexus-AI%20Agent-purple)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Features
+## 🚀 Live Demo
 
-- 🤖 **Intelligent Conversations** — Natural dialogue with context awareness
-- 💻 **Code Assistance** — Write, debug, and explain code
-- 🖼️ **Vision** — Analyze and understand images
-- 📄 **Documents** — Read, summarize, and extract insights
-- ✨ **Modern UI** — Beautiful glassmorphism design with smooth animations
-- 🌙 **Dark Theme** — Easy on the eyes with elegant gradients
+**[View the live agent →](https://nexus-ai-agent.vercel.app)**
 
-## Tech Stack
+## ✨ Features
 
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **UI**: Lucide React icons
-- **Animations**: CSS animations + Framer Motion ready
+- **Interactive Chat Interface** — Real-time conversation with an AI agent demo
+- **Execution Log Panel** — Watch the agent plan, execute tools, and deliver results
+- **Particle Background** — Animated network visualization
+- **Responsive Design** — Works beautifully on desktop, tablet, and mobile
+- **Dark Theme** — Glassmorphism UI with purple/blue gradients
 
-## Getting Started
+## 🛠️ Tech Stack
 
-```bash
-# Install dependencies
-npm install
+- **Frontend:** Vanilla HTML5, CSS3, JavaScript (ES6+)
+- **Animations:** CSS keyframes + Canvas 2D particle system
+- **Deployment:** Vercel Static Hosting
+- **Fonts:** Inter + JetBrains Mono (Google Fonts)
 
-# Run development server
-npm run dev
+## 📦 Project Structure
 
-# Build for production
-npm run build
+```
+ai-agent-app/
+├── index.html      # Main application
+├── styles.css      # All styling (dark theme, glassmorphism)
+├── app.js          # Interactivity, chat demo, particles
+├── vercel.json     # Vercel deployment config
+└── README.md       # This file
 ```
 
-## Deployment
+## 🚀 Deploy Your Own
 
-This project is optimized for static export and can be deployed to any static hosting platform including Vercel, Netlify, or GitHub Pages.
+### Option 1: Vercel CLI
+```bash
+# Install Vercel CLI
+npm i -g vercel
 
-## License
+# Deploy
+vercel --prod
+```
 
-MIT
+### Option 2: Git + Vercel Git Integration
+1. Fork this repo
+2. Import into [Vercel Dashboard](https://vercel.com/dashboard)
+3. Deploy automatically on every push
+
+## 🎯 What This Demonstrates
+
+This project showcases the **frontend experience** of an autonomous AI agent:
+
+1. **Natural Language Input** — Users describe tasks in plain English
+2. **Transparent Execution** — Real-time logs show every tool call
+3. **Structured Output** — Results formatted with markdown-style rendering
+4. **Responsive Feedback** — Typing indicators, progress states, and completion
+
+## 📝 License
+
+MIT License — feel free to use, modify, and deploy.
+
+---
+
+Built with 💜 by the Nexus AI team. Deployed on Vercel Edge Network.
